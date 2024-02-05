@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.input {
+  border: 1px solid black;
+  height: 90px;
+  text-align: end;
+  font-size: 20px;
+  margin: 10px 10px 0px 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  border-radius: 10px;
+  background-color: rgb(241, 248, 208);
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+#display{
+  height: 50px;
+  background-color: rgb(241, 248, 208);
+  border-style: none;
+  text-align: end;
+  
+}
+#display::before{
+  content: "0";
+}
+
+pre {
+  /* border: 1px solid black;
+  height: 90px;
+  text-align: end;
+  font-size: 20px;
+  margin: 10px 10px 0px 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-radius: 10px;
+  background-color: rgb(179, 245, 190); */
+}
+.main {
+  background-color: rgb(223, 216, 231);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-n-i {
+  /* width: 400px; */
+}
+.numandinput {
+  border: 1px solid rgb(0, 0, 0);
+  /* height: 550px; */
+  /* width: 400px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: black;
+  padding-bottom: 10px;
+}
+.number {
+  border: 1px solid black;
+  margin-top: 10px;
+  /* height: 450px; */
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(47, 44, 38);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.buttondiv {
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+  gap: 10px;
+}
+button {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: red;
+}
+.result {
+  height: 25px;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 10px;
+}
