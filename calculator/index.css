@@ -31,20 +31,7 @@ body {
 
   /* border: 1px solid red; */
 }
-#display::before {
-}
 
-pre {
-  /* border: 1px solid black;
-  height: 90px;
-  text-align: end;
-  font-size: 20px;
-  margin: 10px 10px 0px 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  border-radius: 10px;
-  background-color: rgb(179, 245, 190); */
-}
 .main {
   background-color: rgb(223, 216, 231);
   height: 100vh;
