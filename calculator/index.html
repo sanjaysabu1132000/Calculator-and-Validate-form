@@ -13,16 +13,21 @@
         <div class="main-n-i">
           <div class="input">
             <input id="display" readonly />
+            <input id="display2" readonly />
           </div>
           <div class="number">
             <div class="buttondiv">
-              <button value="C" onclick="clearDisplay()">C</button>
-              <button value="." onclick="addToDisplay('.')">.</button>
-              <button value="%" onclick="addToDisplay('%')">%</button>
-              <button value="CE" onclick="clearLast()">CE</button>
+              <button class="button" value="C" onclick="clearDisplay()">
+                C
+              </button>
+              <button value="." onclick="addToDisplay('(')">(</button>
+              <button value="%" onclick="addToDisplay(')')">)</button>
+              <button value="CE" onclick="clearLast()">DE</button>
             </div>
             <div class="buttondiv">
-              <button value="1" onclick="addToDisplay('1')">1</button>
+              <button id="button" value="1" onclick="addToDisplay('1')">
+                1
+              </button>
               <button value="2" onclick="addToDisplay('2')">2</button>
               <button value="3" onclick="addToDisplay('3')">3</button>
               <button value="*" onclick="addToDisplay('*')">*</button>
@@ -41,13 +46,19 @@
             </div>
             <div class="buttondiv">
               <button value="0" onclick="addToDisplay('0')">0</button>
-              <button value="00" onclick="addToDisplay('00')">00</button>
+              <button
+                style="font-size: 30px"
+                value="00"
+                onclick="addToDisplay('.')">
+                .
+              </button>
               <button
                 value="="
                 onclick="calculate('=')"
                 style="background-color: red">
                 =
               </button>
+
               <button value="/" onclick="addToDisplay('/')">/</button>
             </div>
           </div>
